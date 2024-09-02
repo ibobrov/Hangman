@@ -34,6 +34,7 @@ def print_greeting():
     print('Игра "Виселица" начинается...')
     print('Слово загадано. Угадайте его!', end='\n\n')
 
+
 def print_goodbye(word, win):
     print(f'Загаданное слово {word}')
     if win:
@@ -65,6 +66,7 @@ def ask_char():
         print("Введите корректную букву: ")
         user_input = input().lower()
     return user_input
+
 
 def ask_next_game():
     print("Хотите сыграть в игру? (да/нет)")
