@@ -10,6 +10,7 @@ def get_dictionary():
         dictionary = json.load(file)
     return dictionary
 
+
 def get_random_word():
     dictionary = get_dictionary()
     return random.choice(dictionary)
